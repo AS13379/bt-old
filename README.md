@@ -1,24 +1,35 @@
-##### 宝塔开源许可协议：https://www.bt.cn/kyxy.html
-##### 原版使用手册：http://docs.bt.cn
-##### 原版论坛地址：https://www.bt.cn/bbs
-##### 原版反馈建议： https://www.bt.cn/bbs/forum-43-1.html
-##### 原版Bug提交：https://www.bt.cn/bbs/forum-39-1.html
+## 原版本内容
+#### 宝塔开源许可协议：https://www.bt.cn/kyxy.html
+#### 原版使用手册：http://docs.bt.cn
+#### 原版论坛地址：https://www.bt.cn/bbs
+#### 原版反馈建议： https://www.bt.cn/bbs/forum-43-1.html
+#### 原版Bug提交：https://www.bt.cn/bbs/forum-39-1.html
 
-#### 请先使用如下命令安装最新版本：
-##### Centos
+## 请先使用如下命令安装最新版本：
+#### Centos
 ```bash
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 ```
-##### Ubuntu/Debian
+#### Ubuntu/Debian
 ```bash
 wget -O install.sh http://download.bt.cn/install/install-ubuntu_6.0.sh && sudo bash install.sh
 ```
-#### 请使用如下方法将您的版本回退/更新为目前支持的版本:
+### 请使用如下方法将您的版本回退为您想要的版本的版本:
 ##### 所有系统通用
 ```bash
 cd /root
 ```
+##### 获取旧版宝塔zip文件
+#### 通过官方链接
+```bash
+wget http://download.bt.cn/install/update/LinuxPanel-5.9.1.zip //（配php7.2的开心版）
+wget http://download.bt.cn/install/update/LinuxPanel-7.4.2.zip //（有pma漏洞）
+wget http://download.bt.cn/install/update/LinuxPanel-7.4.5.zip //（会有绑定提醒）
+wget http://download.bt.cn/install/update/LinuxPanel-版本号.zip
+```
+##### ps:我并不懂如何正确注释,因此建议删除注释部分运行
 ##### 如果报错,请执行以下代码:
+##### CentOS
 ```bash
 yum install -y wget
 ```
@@ -29,7 +40,6 @@ apt-get install wget
 ##### 继续执行以下代码:
 ##### 所有系统通用
 ```bash
-http://download.bt.cn/install/update/LinuxPanel-7.6.0.zip
 unzip LinuxPanel-*
 cd panel
 bash update.sh
