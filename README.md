@@ -29,8 +29,11 @@ wget http://download.bt.cn/install/update/LinuxPanel-版本号.zip
 ```
 #### 通过本仓库
 ```bsah
-https://github.com/Charlie894/bt-old/releases/download/releases名称/LinuxPanel-版本号.zip
-//注意,请前往相关releases查看发布的版本.
+wget https://github.com/Charlie894/bt-old/releases/download/Updete01/LinuxPanel-5.9.1.zip //配php7.2的开心版
+wget https://github.com/Charlie894/bt-old/releases/download/Updete01/LinuxPanel-7.4.3.zip //有pma漏洞版本的下一版本
+wget https://github.com/Charlie894/bt-old/releases/download/Updete01/LinuxPanel-7.4.5.zip //开始有强制绑定的版本
+wget https://github.com/Charlie894/bt-old/releases/download/Updete01/LinuxPanel-版本号.zip //请先前往Updete01查看已经上传的版本,如果您有特殊需求,请发is或pull,我将会下载并上传
+//注意,为提供下载便利,所有包均在Update01发，其它均会发后续版本
 ```
 ##### ps:我并不懂如何正确注释,因此建议删除注释部分运行
 ##### 如果报错,请执行以下代码:
