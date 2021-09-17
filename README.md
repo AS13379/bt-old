@@ -27,6 +27,11 @@ wget http://download.bt.cn/install/update/LinuxPanel-7.4.2.zip //（有pma漏洞
 wget http://download.bt.cn/install/update/LinuxPanel-7.4.5.zip //（会有绑定提醒）
 wget http://download.bt.cn/install/update/LinuxPanel-版本号.zip
 ```
+#### 通过本仓库
+```bsah
+https://github.com/Charlie894/bt-old/releases/download/releases名称/LinuxPanel-版本号.zip
+//注意,请前往相关releases查看发布的版本.
+```
 ##### ps:我并不懂如何正确注释,因此建议删除注释部分运行
 ##### 如果报错,请执行以下代码:
 ##### CentOS
